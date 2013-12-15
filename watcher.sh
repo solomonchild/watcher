@@ -9,7 +9,6 @@ while : ; do
   if [ "$f" -nt "$tmpf" ]; then
     cp "$f" "$tmpf"
     $cmd
-    $cmd
   fi
   sleep 2
 done
